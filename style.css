@@ -1,0 +1,402 @@
+body{
+  background-color:white;
+   margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Header and nav bar style*/
+nav {
+  position: relative;
+  height: 75px;
+}
+
+nav ul {
+  margin: 0px;
+  line-height: 75px;
+  margin-right: 50px;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+.header {
+  background-color: #ffea8f;
+}
+
+/*Logo styles*/
+
+.logo-container {
+    float: left;
+    width: 250px;
+    height: 180px;
+    line-height: 150px;
+      margin-left: 50px;
+}
+
+.logo-container #logo{
+display: inline-block;
+  height: 75%;
+  vertical-align: middle;
+  padding-left: 100px;
+}
+
+
+/*Header Styles*/
+
+.main-image-burger{
+
+  background-image: url("img/burger.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 669px;
+  width: 100%;
+}
+
+img #burger-img{
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index:-5;
+}
+
+#name{
+  margin: 0;
+  text-align: left;
+  color: white;
+  padding-right: 25%;
+  padding-top: 20%;
+  padding-left: 10%;
+  font-size: 4em;
+}
+
+#address {
+color: white;
+font-size: 2.5em;
+padding-left: 10%;
+margin-top: 0;
+}
+
+#get-directions-button{
+  margin-left: 10%;
+  font-size: 1.5em;
+  background-color:  #ffea8f;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#contact-button{
+  margin-left:  30px;
+  font-size: 1.5em;
+  background-color:  #ffea8f;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/******************Menu Styles*******************/
+/*expirememtn*/
+
+
+#hide{
+  background-image: url("img/hide.jpeg");
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 420px;
+  width: 100%;
+  z-index:-5;
+  text-align: center;
+}
+
+#image-hide{
+  background-color: rgba(0,0,0,0.6);
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index:-5;
+}
+
+#button{
+  font-size: 30px;
+  background-color: #ffea8f;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 20px;
+}
+
+#menu-h2{
+  color: white;
+  font-size: 4em;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/*expirememtn*/
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+  display: none;
+}
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0;
+  text-align: Center;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+/*Private events*/
+.private-event{
+  background-image: url("img/event.jpeg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 420px;
+  width: 100%;
+  z-index:-5;
+  margin-bottom: 30px;
+}
+
+#image-event{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index:-5;
+}
+
+#private-event-h2{
+  color: white;
+    text-align: center;
+    padding-top: 132px;
+    font-size: 3em;
+    margin: 0;
+}
+
+
+/* Hours and map style*/
+.map-hours-container {
+column-count: 2;
+column-gap: 25px;
+padding: 35px 19px;
+}
+#map{
+  height: 290px;
+  width: 273px;
+  padding-left: 450px;
+}
+
+#hours{
+  position: relative;
+    bottom: 33px;
+    right: 54px;
+    padding: 0 82px;
+}
+
+/*horario*/
+#formH1{
+  text-align: center
+}
+.hours {
+  float: right;
+font-size: 20px;
+}
+
+.day{
+  border-bottom: 2px dotted rgb(213, 213, 213);
+  font-size: 20px;
+}
+
+/*Contact  and social Media*/
+.contact-container{
+  background-color: #ffea8f;
+  column-count: 2;
+  column-rule-width: 50;
+  column-gap: 20px;
+  padding-bottom: 30px;
+}
+
+.social{
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.fa{
+  color: black;
+  padding-bottom: 20px;
+}
+
+.fa-instagram{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#imgae-social{
+  width: 300px;
+  height: 200px;
+}
+
+/************/
+
+.contact-number{
+  text-align: center;
+  padding-top: 30px;
+  line-height:10px;
+}
+
+.number-h4{
+  font-size: 30px;
+}
+
+.number{
+  font-size: 1em;
+}
+
+.fa-phone::before{
+  padding-right: 10px;
+font-size: 44px;
+position: relative;
+top: 10px;
+bottom: 13px;
+}
+
+.fa-envelope::before{
+  position: relative;
+  font-size: 40px;
+  padding-right: 15px;
+  top: 10px;
+}
+
+/*clear floats*/
+.groups:after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+
+/*Media queries*/
+@media (max-width: 1024px){
+  .map-hours-container{
+    column-count: 1;
+  }
+#hours{
+  left: 5px;
+  padding: 0 172px;
+}
+#map{
+  padding: 0 303px;
+  left: 150px;
+}
+}
+
+@media (max-width: 1366px){
+  #map{
+    padding: 0 190px;
+  }
+}
+
+@media(max-width: 980){
+  #hours{
+    left: 20px
+  }
+}
+
+/*@media (max-width: 414px){
+  #menu-h2{
+    padding-top: 70px;
+  }
+}*/
