@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
     <title>Classic Grill Bar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,24 +11,22 @@
   </head>
   <body>
     <!-- Header, logo -->
-    <header class="header">
-        <div >
-          <nav class="list">
-            <div class="logo-container">
-              <img id="logo" src="img/classicGrillBar.png" alt="">
-            </div>
-            <ul >
-              <li><a href="#logo">HOME</a></li>
-              <li><a href="#show-menu-id">MENU</a></li>
-              <li><a href="#show-contact">CONTACT</a></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
+    <div class="nav">
+      <div class="logo-container">
+        <img id="logo" src="img/classicGrillBar.png" alt="">
+      </div>
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+        <a href="#">HOME</a>
+        <a href="#">CONTAC</a>
+        <a href="#">MENU</a>
+      </div>
+    </div>
     <!-------------------------------->
     <!-- Image  -->
   <div class="main-image-burger">
-    <img  id="burger-img" src="" alt="">
+    <!-- <img  id="burger-img" src="" alt=""> -->
     <h1 id="name">Classic Grill Bar</h1>
     <h2 id="address">Quito entre Bolivar y Rocafuerte <br>Junto al Diario la Hora</h2>
     <a href="#show-contact">
@@ -44,7 +44,7 @@
       <h2 id="menu-h2">Menu</h2>
       <button id="button"type="input" name="button">Show Menu</button>
     </div>
-  </div>
+  <!-- </div> -->
   <div class="menu-body " id="paragraph">
       <!-- Section starts: Appetizers -->
       <div class="menu-section">
@@ -168,6 +168,19 @@
       </div >
      <!-- Section ends: Drinks -->
   </div>
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+
+</div>
 
 <!-- Privates iventes -->
 
